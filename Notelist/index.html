@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Note list</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <!-- font-family: 'Poppins', sans-serif; -->
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+  <!-- font-family: 'Bungee Inline', cursive; -->
+  <link rel="stylesheet" href="reset.css">
+  <link href="style.css" rel="stylesheet">
+  <!-- <script src="index-start.js" defer></script> -->
+  <script src="index.js" defer></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container header__inner">
+        <h1 class="header__title">NOTE LIST</h1>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <div class="main__note">
+          <h2 class="main__note__title">All of note list</h2>
+          <ul class="note__list">
+            <li class="note__item">
+              <!-- <div class="note__store">
+                <h3 class="note__heading">list 1</h3>
+                <button class="note__dltBtn">Delete</button>
+              </div>
+              <p class="note__content">Finish this project</p> -->
+            </li>
+          </ul>
+        </div>
+        <div class="main__create">
+          <h2 class="main__create__header">Create a new note</h2>
+          <form class="form">
+            <div class="form__title">
+              <label for="title"></label>
+              <input id="title" class="form__title--input" type="text" placeholder="Title..." required autofocus>
+            </div>
+            <div class="form__content">
+              <label for="content"></label>
+              <textarea id="content" class="form__content--input" type="text" placeholder="Note..." required></textarea>
+            </div>
+            <div class="form__btn">
+              <button class="form__btn--modified">Create new note</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-- <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <p>Copyright Liam's daddy</p>
+        </div>
+      </div>
+    </footer> -->
+  </div>
+
+</body>
+
+</html>
